@@ -13,7 +13,7 @@
 * If an asset is only present in the component you're making, create an `assets` folder in the component folder. If the asset is present in more than one component, put it in `public/assets`.
 * All sub components (if needed) should be in `src/components/DomainTable/components`
 
-### c. Exporting
+### b. Exporting
 
 We are using a design pattern called the [Barrel Pattern](https://basarat.gitbook.io/typescript/main-1/barrel) for our component exports. This pattern simplifies imports and exports of components - instead of having to call `import DomainTable from 'src/components/DomainTable/DomainTable`, we can just call `import { DomainTable } from 'src/components'`.
 
@@ -23,7 +23,7 @@ We are using a design pattern called the [Barrel Pattern](https://basarat.gitboo
 2. Add `export { default as DomainTable } from './DomainTable/DomainTable'`
 *I have tried to group exports based on functionality, but just chuck them in Other for now as we will probably just alphabetise them at some point*
 
-### d. Component styling
+### c. Component styling
 
 We are using [CSS Modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/), as they provide the greatest level of encapsulation.
 
