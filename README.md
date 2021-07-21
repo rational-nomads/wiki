@@ -5,5 +5,9 @@ Written by @colbr
 
 Happy hacking!
 
+For all info on how to get tasks and submit work, [start here](https://github.com/rational-nomads/wiki/blob/main/getting-started.md)
+
+#### Contents
+* [Getting Started](https://github.com/rational-nomads/wiki/blob/main/getting-started.md)
 * [React Projects](https://github.com/rational-nomads/wiki/tree/main/react)
   * [Components](https://github.com/rational-nomads/wiki/blob/main/react/components.md)
